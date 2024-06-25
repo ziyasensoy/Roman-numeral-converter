@@ -1,0 +1,77 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(../Images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Cinzel", serif;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.header h1 {
+  color: black;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 30px;
+  min-width: 400px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.input-container input {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 5px;
+  background-color: transparent;
+  color: #333;
+  outline: none;
+  font-size: 16px;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: darkgray;
+  color: white;
+  cursor: pointer;
+}
+
+.result {
+  margin-top: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  width: 400px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: aliceblue;
+  border: 1px solid black;
+}
