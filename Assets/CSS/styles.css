@@ -57,7 +57,7 @@ body {
 }
 
 .result {
-    display: none;
+  display: none;
   flex-direction: column;
   align-items: center;
   padding: 20px;
