@@ -1,6 +1,7 @@
 const button = document.getElementById("convert-btn");
 const numberInput = document.getElementById("number");
 const output = document.getElementById("output");
+const resultDiv = document.querySelector(".result");
 
 const numerals = [
   ["M", 1000],
@@ -43,4 +44,5 @@ button.addEventListener("click", () => {
     }
     output.innerText = result;
   }
+  resultDiv.style.display = "flex";
 });
